@@ -94,7 +94,7 @@ Heading of the street view camera in degrees
 ** Pitch ``<double>`` **  
 Pitch of the street view camera in degrees
 
-** Roll ``<double>`` **  
+**Roll ``<double>``**  
 Roll of the street view camera in degrees (always zero)
 
 Heading, pitch, and roll describe the absolute orientation of the (virtual) street view camera such that the target point is focused in the center of the image. The orientation is given in absolute angles.
