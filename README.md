@@ -44,66 +44,66 @@ README.txt
 
 The meaning of the encoded IDs are explained in the following:
 
-** DatasetID ``<int>`` **  
+**DatasetID ``<int>``** 
 The id of the dataset. A dataset corresponds to a rectangular region on the map.
 
-** TargetID ``<int>`` **  
+**TargetID ``<int>``**
 ID of a target point which is unique within a dataset. Images that have the same target id in their name, show the same physical point in their center.
 
-** PatchID ``<int>`` **  
+**PatchID ``<int>``**
 ID of the patch itself. A patch has a unique ID within one dataset.
 
-** StreetViewID ``<int>`` **  
+**StreetViewID ``<int>``**
 ID of the street view location. A street view location has a unique ID within one dataset. The ID is uniquely associated with a geo location.
 
 All ids (except DatasetID) are only unique within one dataset.  The entire filename is always unique.
 
 The image is acquired, such that the 3D target point should be projected to the center pixel (up to possible alignment errors).
 
-The text file contains two lines (google meta data and alignment infos). The first line starts with  a ** d ** , the second line with an ** a ** . The lines contain are space delimited numbers. The meaning of the numbers is explained in the following, same order as in the file:
+The text file contains two lines (google meta data and alignment infos). The first line starts with  a **d** , the second line with an **a** . The lines contain are space delimited numbers. The meaning of the numbers is explained in the following, same order as in the file:
 
 ### Google Meta Data (d)
 
-** DatasetID ``<int>`` **  
+**DatasetID ``<int>``** 
 The id of the dataset. A dataset corresponds to a rectangular region on the map.
 
-** TargetID ``<int>`` **  
+**TargetID ``<int>``**
 ID of a target point which is unique within a dataset. Images that have the same target id in their name, show the same physical point in their center.
 
-** PatchID ``<int>`` **  
+**PatchID ``<int>``**
 ID of the patch itself. A patch has a unique ID within one dataset.
 
-** StreetViewID ``<int>`` **  
+**StreetViewID ``<int>``**
 ID of the street view location. A street view location has a unique ID within one dataset. The ID is uniquely associated with a geo location.
 
-** Target Point ``<3x1 double>`` **  
+**Target Point ``<3x1 double>``**
 The target point is defined in a global geo-reference system (latitude, longitude, height), where latitude and longitude are given in decimal degrees and the height is given in meters.
 
-** Target Surface Normal ``<3x1 double>`` **  
+**Target Surface Normal ``<3x1 double>``**
 normal vector of the underlying geometry (e.g. facade of the building). Similar to a surface normal, the vector is normalized to one. The normal is also defined in a global coordinate system (WebMercator)
 
-** Street View Location  ``<3x1 double>`` **  
+**Street View Location  ``<3x1 double>``**
 Location of the respective street view panorama. Latitude and longitude are given in decimal degrees. The height is given in meters.
 
-** Distance to Target ``<double>`` **  
+**Distance to Target ``<double>``**
 Distance between street view location and target point in meters.
 
-** Heading ``<double>`` **  
+**Heading ``<double>``**
 Heading of the street view camera in degrees
 
-** Pitch ``<double>`` **  
+**Pitch ``<double>``**
 Pitch of the street view camera in degrees
 
-**Roll ``<double>``**  
+**Roll ``<double>``**
 Roll of the street view camera in degrees (always zero)
 
 Heading, pitch, and roll describe the absolute orientation of the (virtual) street view camera such that the target point is focused in the center of the image. The orientation is given in absolute angles.
 
 The entire image of a given street view location is spherical. The images we work with is just a rectangular region of that sphere.
 
-** Heading ** : 0 means north, 180 means south
+**Heading**: 0 means north, 180 means south
 
-** Pitch ** : 0 means looking parallel to the ground plane, -90 means looking to the ground, 90 looking to the sky.
+**Pitch**: 0 means looking parallel to the ground plane, -90 means looking to the ground, 90 looking to the sky.
 
 ### Alignment Data (a)
 
@@ -114,31 +114,31 @@ We applied a post processing step to compensate the inaccurate alignment of the 
 
 Actually, the corrected patch center is the most important information. The other quantities are included for convenience and mostly represent intermediate results. Please refer to our paper for further details on the alignment process.
 
-** Corrected Patch Center `` <2x1 double> `` **   
+**Corrected Patch Center `` <2x1 double> ``**  
 New (aligned) location of the target point in the given street view image
 
-** Warp Matrix `` <3x3 double> `` **  
+**Warp Matrix `` <3x3 double> ``**
 Matrix that rectifies the street view image such that the target normal is orthogonal to the viewing plane
 
-** Bounding Box Coordinates `` <4x2 double> `` **
+**Bounding Box Coordinates `` <4x2 double> ``**
 coordinates of the virtual, unaligned bounding box in the image. The bounding box represents a region on the infinite plane in space that is defined by target point and normal. The bounding box has the same size (in meters) for one target id.
 
-** Registration Matrix `` <3x3 double> `` **  
+**Registration Matrix `` <3x3 double> ``**
 matrix that transforms the given street view image, such that the target point is projected to the image center. (in order to align the image, we could either move the projection of the target point or transform the image)
 
 The following quantities are heuristically used to say something about the quality and the reliability of the registration process:
 
-** Total Sift Flow Energy `` <int> `` **  
+**Total Sift Flow Energy `` <int> ``**
 Total energy of the sift flow algorithm that registers the warped street view images. The lower the better.
 
-** Transformation Inlier Ratio `` <double> `` **  
+**Transformation Inlier Ratio `` <double> ``**
 Inlier ratio of the RANSAC algorithm that founds the best fitting projective transformation matrix for the flow field computed by SIFT flow. The higher the better.
 
-** Similarity Measure `` <double> `` **
+**Similarity Measure `` <double> ``**
 Standard similarity measure (ssi) of the warped and registered image and the warped reference image. The higher the better.
 
-** Distortion `` <double> `` **
+**Distortion `` <double> ``**
 Lets assume that we define a square-shaped bounding box in the reference view and transform it by the resulting registration matrix R. B' = R * B. Distortion is the ratio of the area of B' and B. Defined to be between 0 and 1. The higher the better.
 
-** Corrected Bounding Box `` <4x2 double> `` **
+**Corrected Bounding Box `` <4x2 double> ``**
 Aligned version of <bounding box coordinates 4x2 double>.
