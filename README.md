@@ -142,3 +142,5 @@ Lets assume that we define a square-shaped bounding box in the reference view a
 
 **Corrected Bounding Box `` <4x2 double> ``**
 Aligned version of <bounding box coordinates 4x2 double>.
+
+
