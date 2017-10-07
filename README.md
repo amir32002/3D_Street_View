@@ -25,6 +25,9 @@ The datase was used in the following paper to learn a universal/generic 3D repre
 *Amir R Zamir, Tilman Wekel, Pulkit Agrawal, Jitendra Malik, Silvio Savarese,*
 *ECCV16.*
 
+[[paper]](http://cvgl.stanford.edu/papers/zamir_eccv16.pdf)
+[[supplementary material]](http://cs.stanford.edu/~amirz/index_files/0633_supp.pdf)
+
 For more detail on the data collection and the method please visit the [[project webpage]](http://3Drepresentation.stanford.edu).
 
 ---
