@@ -1,6 +1,11 @@
-# Object-Centric 2D-3D Dataset
+# Street View Image and Pose Dataset http://3drepresentation.stanford.edu/
 
+This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The dataset covers the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The 6DOF camera poses are also released. The dataset was collected automatically without any human annotation by developing a system to intergrate georeferenced 3D models of cities with google street view images and their geo-metadata. For more information on how the dataset was collected, please see the [[paper]](http://3drepresentation.stanford.edu/). 
 
+The datase was used in the following paper to learn a universal/generic 3D representation: 
+Generic 3D Representation via Pose Estimation and Matching,
+Amir R Zamir, Tilman Wekel, Pulkit Agrawal, Jitendra Malik, Silvio Savarese,
+ECCV16.
 
 ## Overview:
 The dataset comprises 25 million street view patches forming 118 million corresponding pairs. The images were acquired from google street view. We collected images on a dense grid in the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. Based on the 3D model of the city, we densely sampled points on facades and found all street view panoramas that see the same target point without any occlusions. For each image, we know the geo location of the street view camera as well as the location of the focused target point. Since google street-view provides 360 panoramas, we compute heading and pitch angles such that we can download a 640x640 image section (of the panorama) that shows the respective target point in its center. Two images form a pair if they show the same physical target point. Each target point is typically observed by 2-7 corresponding street-view images. An image is given by a 640x640 jpg along with an identically named text file that contains meta data such as the geo locations of camera and target point, the distance to the target or the pose of the camera. The image’s filename encodes unique ids for the street-view location and for the target point. This allows to easily identify corresponding images. The images are compressed into multiple zip-files such that the resulting file size doesn’t exceed a maximum.
@@ -107,7 +112,7 @@ The entire image of a given street view location is spherical. The images we wor
 
 ### Alignment Data (a)
 
-The second line contains information about the alignment post processing. If the text file does not contain this line, no post processing has been applied.
+The images are released in two versions: raw (without content alignment) and aligned (with content alignement to reduce the issues caused by imperfection in metadata). The second line contains information about the alignment post processing. If the text file does not contain this line, no post processing has been applied. 
 
 
 We applied a post processing step to compensate the inaccurate alignment of the images due to registration errors in google street view or unreported structures that cause occlusions. The algorithm estimates and applies a linear transformation to the images in order to eliminate the misalignment. Roughly speaking, for a given target point, the algorithm picks one corresponding street view as reference and tries to align all the other views such that the target point is projected to the same image location for all views. Note, that not all images could been processed.
