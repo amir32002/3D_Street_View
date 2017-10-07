@@ -3,7 +3,7 @@
 
 This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf). The 6DOF camera poses are also released. 
 
-<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/data_sample.gif" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/data_samplel.gif" width="600">
 
 
 
@@ -25,10 +25,14 @@ The datase was used in the following paper to learn a universal/generic 3D repre
 *Amir R Zamir, Tilman Wekel, Pulkit Agrawal, Jitendra Malik, Silvio Savarese,*
 *ECCV16.*
 
+For more detail on the data collection and the method please visit the [[project webpage]](http://3Drepresentation.stanford.edu).
+
+---
+
+
 ## Overview:
 The dataset comprises 25 million google street view images forming 118 million corresponding pairs. We collected images on a dense grid in the aforementioned cities. Based on the 3D model of the city, we densely sampled points on facades and found all street view panoramas that see the same target point without any occlusions. For each image, we know the geo location of the street view camera as well as the location of the focused target point. Since google street-view provides 360 panoramas, we compute heading and pitch angles such that we can download a 640x640 image section (of the panorama) that shows the respective target point in its center. Two images form a pair if they show the same physical target point. Each target point is typically observed by 2-7 corresponding street-view images. An image is given by a 640x640 jpg along with an identically named text file that contains meta data such as the geo locations of camera and target point, the distance to the target or the pose of the camera. The image’s filename encodes unique ids for the street-view location and for the target point. This allows to easily identify corresponding images. The images are compressed into multiple zip-files such that the resulting file size doesn’t exceed a maximum.
 
-For more information on how we acquired the dataset please visit the [[project site]](http://3Drepresentation.stanford.edu).
 
 ## Download
 Please note that by downloading this dataset you are consenting to non-commercial use and the license.
@@ -36,6 +40,9 @@ Please note that by downloading this dataset you are consenting to non-commercia
 ### [[ Download the full Dataset and Testset]](https://console.cloud.google.com/storage/browser/streetview_image_pose_3d)  
 
 The dataset is very large. In order to make it more handy, it comes as a set of tar files that contain the image - and meta - data.
+
+---
+
 
 ### Citations
 If you use this dataset please cite:
