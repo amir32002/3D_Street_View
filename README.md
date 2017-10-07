@@ -1,7 +1,13 @@
 # Street View ***_Image, Pose, and 3D Cities_*** Dataset 
 ## http://3drepresentation.stanford.edu/
 
-This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The dataset covers the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The 6DOF camera poses are also released. The dataset was collected automatically without any human annotation by developing a system to intergrate georeferenced 3D models of cities with google street view images and their geo-metadata. For more information on how the dataset was collected, please see the [[paper]](http://3drepresentation.stanford.edu/). 
+This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The 6DOF camera poses are also released. The dataset was collected automatically without any human annotation by developing a system to intergrate georeferenced 3D models of cities with google street view images and their geo-metadata. 
+
+![demo](http://3drepresentation.stanford.edu/static/images/website_teaser_video_keynote_v4.m4v)
+
+The dataset covers the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. For more information on how the dataset was collected, please see the [[paper]](http://3drepresentation.stanford.edu/). 
+
+![demo](https://github.com/fxia22/realenv/blob/full_environment2/misc/example2.gif)
 
 The datase was used in the following paper to learn a universal/generic 3D representation: 
 
