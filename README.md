@@ -1,17 +1,23 @@
-# Street View ***_Image, Pose, and 3D Cities_*** Dataset 
+# Street View _Image, Pose, and 3D Cities_ Dataset 
 ## http://3drepresentation.stanford.edu/
 
-This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The 6DOF camera poses are also released. 
+This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf). The 6DOF camera poses are also released. 
 
-<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/integrated_crawler.gif" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/data_sample.gif" width="600">
+
+
 
 The dataset was collected automatically without any human annotation by developing a system to intergrate georeferenced 3D models of cities with google street view images and their geo-metadata. 
 
 <img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/integrated_crawler.gif" width="600">
 
+
+
 The dataset covers the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. For more information on how the dataset was collected, please see the [[paper]](http://3drepresentation.stanford.edu/). 
 
 <img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/dataset_coverage.jpg" width="600">
+ 
+ 
  
 The datase was used in the following paper to learn a universal/generic 3D representation: 
 
@@ -20,14 +26,14 @@ The datase was used in the following paper to learn a universal/generic 3D repre
 *ECCV16.*
 
 ## Overview:
-The dataset comprises 25 million street view patches forming 118 million corresponding pairs. The images were acquired from google street view. We collected images on a dense grid in the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. Based on the 3D model of the city, we densely sampled points on facades and found all street view panoramas that see the same target point without any occlusions. For each image, we know the geo location of the street view camera as well as the location of the focused target point. Since google street-view provides 360 panoramas, we compute heading and pitch angles such that we can download a 640x640 image section (of the panorama) that shows the respective target point in its center. Two images form a pair if they show the same physical target point. Each target point is typically observed by 2-7 corresponding street-view images. An image is given by a 640x640 jpg along with an identically named text file that contains meta data such as the geo locations of camera and target point, the distance to the target or the pose of the camera. The image’s filename encodes unique ids for the street-view location and for the target point. This allows to easily identify corresponding images. The images are compressed into multiple zip-files such that the resulting file size doesn’t exceed a maximum.
+The dataset comprises 25 million google street view images forming 118 million corresponding pairs. We collected images on a dense grid in the aforementioned cities. Based on the 3D model of the city, we densely sampled points on facades and found all street view panoramas that see the same target point without any occlusions. For each image, we know the geo location of the street view camera as well as the location of the focused target point. Since google street-view provides 360 panoramas, we compute heading and pitch angles such that we can download a 640x640 image section (of the panorama) that shows the respective target point in its center. Two images form a pair if they show the same physical target point. Each target point is typically observed by 2-7 corresponding street-view images. An image is given by a 640x640 jpg along with an identically named text file that contains meta data such as the geo locations of camera and target point, the distance to the target or the pose of the camera. The image’s filename encodes unique ids for the street-view location and for the target point. This allows to easily identify corresponding images. The images are compressed into multiple zip-files such that the resulting file size doesn’t exceed a maximum.
 
 For more information on how we acquired the dataset please visit the [[project site]](http://3Drepresentation.stanford.edu).
 
 ## Download
 Please note that by downloading this dataset you are consenting to non-commercial use and the license.
 
-### [[ Download the full Dataset and Testset]](https://console.cloud.google.com/storage/browser/streetview_image_pose_3D)  
+### [[ Download the full Dataset and Testset]](https://console.cloud.google.com/storage/browser/streetview_image_pose_3d)  
 
 The dataset is very large. In order to make it more handy, it comes as a set of tar files that contain the image - and meta - data.
 
@@ -42,7 +48,8 @@ If you use this dataset please cite:
   organization={Springer}
 }
 
-### Dataset Structure
+
+## Dataset Structure
 The street view data is given as images and corresponding text files that contain the meta data.  The data is stored in multiple tar files, where each tar file contains the image - and meta - data files of one dataset. A data set corresponds to a rectangular sub region on the map.
 
 For each street view point - target point correspondence, there is an image and a text file with identical names. The structure of the data is as follows:
@@ -124,7 +131,9 @@ The images are released in two versions: raw (without content alignment) and ali
 
 We applied a post processing step to compensate the inaccurate alignment of the images due to registration errors in google street view or unreported structures that cause occlusions. The algorithm estimates and applies a linear transformation to the images in order to eliminate the misalignment. Roughly speaking, for a given target point, the algorithm picks one corresponding street view as reference and tries to align all the other views such that the target point is projected to the same image location for all views. Note, that not all images could been processed.
 
+
 ![demo](https://github.com/amir32002/3D_Street_View/blob/master/misc/alignment.jpg)
+
 
 
 Actually, the corrected patch center is the most important information. The other quantities are included for convenience and mostly represent intermediate results. Please refer to our paper for further details on the alignment process.
