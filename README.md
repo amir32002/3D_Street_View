@@ -1,7 +1,7 @@
 # Street View _Image, Pose, and 3D Cities_ Dataset 
 **http://3drepresentation.stanford.edu/**
 
-This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
+This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, robust estimation, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
 
 <img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/data_samplel.gif" width="600">
 
@@ -35,6 +35,9 @@ The dataset comprises 25 million google street view images forming 118 million c
 
 ### Test Set:
 To ensure the quality of the test set and keep evaluations unimpacted by the potential errors introduced by the automated data collection, every datapoint in the test set are verified by at least three Amazon Mechanical Turkers. The procedure and statistics are elborated in the supplementary material. You can download visualizations and accuracy analysis of a random subset of several thousand test datapoints [[here]](https://storage.googleapis.com/amirs/3Drep_dataset/testset_pairs_visualization_v1.zip) .
+
+### Noise Statistics:
+A user study through Amazon Mechanical Turk was performed to analyze the characteristic of noise in the final dataset and quantify its amount. The results of the study and discussions can be found in section 3.2 of [[supplementary material]](http://cs.stanford.edu/~amirz/index_files/0633_supp.pdf). This is useful for the researchers interested in developing and evaluation methods that are capable of utilizing an automatically, and therefore nearly for-free, collected dataset at the expense of a modest amount of noise.
 
 
 ## Download
