@@ -1,14 +1,18 @@
 # Street View ***_Image, Pose, and 3D Cities_*** Dataset 
 ## http://3drepresentation.stanford.edu/
 
-This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The 6DOF camera poses are also released. The dataset was collected automatically without any human annotation by developing a system to intergrate georeferenced 3D models of cities with google street view images and their geo-metadata. 
+This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The 6DOF camera poses are also released. 
 
-![demo](http://3drepresentation.stanford.edu/static/images/website_teaser_video_keynote_v4.m4v)
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/integrated_crawler.gif" width="600">
+
+The dataset was collected automatically without any human annotation by developing a system to intergrate georeferenced 3D models of cities with google street view images and their geo-metadata. 
+
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/integrated_crawler.gif" width="600">
 
 The dataset covers the downtown areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, and Paris. For more information on how the dataset was collected, please see the [[paper]](http://3drepresentation.stanford.edu/). 
 
-![demo](https://github.com/fxia22/realenv/blob/full_environment2/misc/example2.gif)
-
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/dataset_coverage.jpg" width="600">
+ 
 The datase was used in the following paper to learn a universal/generic 3D representation: 
 
 ***Generic 3D Representation via Pose Estimation and Matching,***
@@ -118,8 +122,10 @@ The entire image of a given street view location is spherical. The images we wor
 
 The images are released in two versions: raw (without content alignment) and aligned (with content alignement to reduce the issues caused by imperfection in metadata). The second line contains information about the alignment post processing. If the text file does not contain this line, no post processing has been applied. 
 
-
 We applied a post processing step to compensate the inaccurate alignment of the images due to registration errors in google street view or unreported structures that cause occlusions. The algorithm estimates and applies a linear transformation to the images in order to eliminate the misalignment. Roughly speaking, for a given target point, the algorithm picks one corresponding street view as reference and tries to align all the other views such that the target point is projected to the same image location for all views. Note, that not all images could been processed.
+
+![demo](https://github.com/amir32002/3D_Street_View/blob/master/misc/alignment.jpg)
+
 
 Actually, the corrected patch center is the most important information. The other quantities are included for convenience and mostly represent intermediate results. Please refer to our paper for further details on the alignment process.
 
