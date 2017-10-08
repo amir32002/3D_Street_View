@@ -1,4 +1,4 @@
-# Street View ``3D Pose, Image, and Cities``_ Dataset 
+# Street View ``3D Pose, Image, and Cities`` Dataset 
 **http://3drepresentation.stanford.edu/**
 
 This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, robust estimation, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
@@ -37,10 +37,24 @@ For more detail on the data collection and the method please visit the [[project
 The dataset comprises 25 million google street view images forming 118 million corresponding pairs. We collected images on a dense grid in the aforementioned cities. Based on the 3D model of the city, we densely sampled points on facades and found all street view panoramas that see the same target point without any occlusions. For each image, we know the geo location of the street view camera as well as the location of the focused target point. Since google street-view provides 360 panoramas, we compute heading and pitch angles such that we can download a 640x640 image section (of the panorama) that shows the respective target point in its center. Two images form a pair if they show the same physical target point. Each target point is typically observed by 2-7 corresponding street-view images. An image is given by a 640x640 jpg along with an identically named text file that contains meta data such as the geo locations of camera and target point, the distance to the target or the pose of the camera. The image’s filename encodes unique ids for the street-view location and for the target point. This allows to easily identify corresponding images. The images are compressed into multiple zip-files such that the resulting file size doesn’t exceed a maximum.
 
 ### Test Set:
-To ensure the quality of the test set and keep evaluations unimpacted by the potential errors introduced by the automated data collection, every datapoint in the test set are verified by at least three Amazon Mechanical Turkers. The procedure and statistics are elborated in the supplementary material. You can download visualizations and accuracy analysis of a random subset of several thousand test datapoints [[here]](https://storage.googleapis.com/amirs/3Drep_dataset/testset_pairs_visualization_v1.zip) .
+To ensure the quality of the test set and keep evaluations unimpacted by the potential errors introduced by the automated data collection, every datapoint in the test set are verified by at least three Amazon Mechanical Turkers and noisy cases are removed. The procedure and statistics are elborated in the supplementary material. 
+The test pairs are guaranteed to: 
+* show the same exact physical point in both patches (re-verified by Truckers)
+* the magnitude of the translation vector between the center of two patches (re-measured by Turker click locations) to be <25 pixels (i.e. ~4% of image’s width) 
+* the uncertainty in translation vector between the center of two patches (measured by the disparity among Turker click locations) to be <15  pixels (~2% of image’s width)
+
+You can download visualizations and accuracy analysis of a random subset of several thousand test datapoints [[here]](https://storage.googleapis.com/amirs/3Drep_dataset/testset_pairs_visualization_v1.zip). Below you can see a few sample test pairs where the center of two images/patches should match and three Turkers verified that by their click. See details in [[supplementary material]](http://cs.stanford.edu/~amirz/index_files/0633_supp.pdf).
+
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/0018-0071611_0018-0071611.jpg" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/0057-0225543_0057-0225543.jpg" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/0006-0087241_0006-0087241.jpg" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/0057-0169146_0057-0169146.jpg" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/0006-0087988_0006-0087988.jpg" width="600">
+ 
+
 
 ### Noise Statistics:
-A user study through Amazon Mechanical Turk was performed to analyze the characteristic of noise in the final dataset and quantify its amount. The results of the study and discussions can be found in section 3.2 of [[supplementary material]](http://cs.stanford.edu/~amirz/index_files/0633_supp.pdf). This is useful for the researchers interested in developing and evaluation methods that are capable of utilizing an automatically, and therefore nearly for-free, collected dataset at the expense of a modest amount of noise.
+A user study through Amazon Mechanical Turk was performed to analyze the characteristic of noise in the final dataset and quantify its amount. The results of the study and discussions can be found in section 3.2 of [[supplementary material]](http://cs.stanford.edu/~amirz/index_files/0633_supp.pdf). This is useful for the researchers interested in development and evaluation of methods that are capable of utilizing a large amount of automatically, and therefore nearly for-free, collected data at the expense of a modest amount of noise.
 
 
 ## Download
@@ -138,7 +152,7 @@ The images are released in two versions: raw (without content alignment) and ali
 We applied a post processing step to compensate the inaccurate alignment of the images due to registration errors in google street view or unreported structures that cause occlusions. The algorithm estimates and applies a linear transformation to the images in order to eliminate the misalignment. Roughly speaking, for a given target point, the algorithm picks one corresponding street view as reference and tries to align all the other views such that the target point is projected to the same image location for all views. Note, that not all images could been processed.
 
 
-![demo](https://github.com/amir32002/3D_Street_View/blob/master/misc/alignment.jpg)
+![alignment_figure](https://github.com/amir32002/3D_Street_View/blob/master/misc/alignment.jpg)
 
 
 
