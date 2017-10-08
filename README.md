@@ -1,4 +1,4 @@
-# Street View _Image, Pose, and 3D Cities_ Dataset 
+# Street View _``Image, Pose, and 3D Cities``_ Dataset 
 **http://3drepresentation.stanford.edu/**
 
 This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, robust estimation, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
@@ -46,24 +46,13 @@ A user study through Amazon Mechanical Turk was performed to analyze the charact
 ## Download
 Please note that by downloading this dataset you are consenting to non-commercial use and the license.
 
-### [[ Download the full Dataset and Testset]](https://console.cloud.google.com/storage/browser/streetview_image_pose_3d)  
+### [ Download the full [Dataset] and [Testset] ](https://console.cloud.google.com/storage/browser/streetview_image_pose_3d)  
 
 The dataset is very large. In order to make it more handy, it comes as a set of tar files that contain the image - and meta - data.
 
 
 ---
 
-
-### Citations
-If you use this dataset please cite:
-@inproceedings{zamir2016generic,
-  title={Generic 3d representation via pose estimation and matching},
-  author={Zamir, Amir R and Wekel, Tilman and Agrawal, Pulkit and Wei, Colin and Malik, Jitendra and Savarese, Silvio},
-  booktitle={European Conference on Computer Vision},
-  pages={535--553},
-  year={2016},
-  organization={Springer}
-}
 
 
 ## Dataset Structure
@@ -185,4 +174,20 @@ Lets assume that we define a square-shaped bounding box in the reference view a
 Aligned version of <bounding box coordinates 4x2 double>.
 
 
+---
+
+
+### Citations
+If you use this dataset please cite:
+
+```
+@inproceedings{zamir2016generic,
+  title={Generic {3D} representation via pose estimation and matching},
+  author={Zamir, Amir R and Wekel, Tilman and Agrawal, Pulkit and Wei, Colin and Malik, Jitendra and Savarese, Silvio},
+  booktitle={European Conference on Computer Vision},
+  pages={535--553},
+  year={2016},
+  organization={Springer}
+}
+```
 
