@@ -3,7 +3,7 @@
 
 This repository shares a large scale dataset of street view images (25 million images and 118 matching image pairs) with their relative camera pose, 3D models of cities, and 3D metadata of images. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint can show a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, robust estimation, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
 
-<img src="https://github.com/amir32002/3D_Street_View/blob/master/3D_cities_snapshots/data_samplel.gif" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/data_samplel.gif" width="600">
 
 
 
@@ -13,9 +13,9 @@ The dataset was collected automatically without any human annotation by developi
 
 ### 3D Models of Cities:
 
-The dataset covers the downtown and surrounding areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, San Francisco and Paris. We are releasing the 3D models of these cities besides the street view images and metadata. The models are geo-registered. Below you can see snapshots of 3D models. 
+The dataset covers the downtown and surrounding areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, San Francisco and Paris. We are releasing the 3D models of these cities besides the street view images and metadata. The models are geo-registered. Below you can see snapshots of 3D models. You can see more snapshots [here](https://github.com/amir32002/3D_Street_View/blob/master/3D_cities_snapshots/)
 
-<img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/3D_models_tile.jpg" width="600">
+<img src="https://github.com/amir32002/3D_Street_View/blob/master/3D_cities_snapshots/3D_models_tile.jpg" width="600">
 
 The following show the coverage areas for 6 of the 8 cities.
 
