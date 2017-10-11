@@ -13,7 +13,7 @@ The dataset was collected automatically without any human annotation by developi
 
 ### 3D Models of Cities:
 
-The dataset covers the downtown and surrounding areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, San Francisco and Paris. We are releasing the 3D models of these cities besides the street view images and metadata. The models are geo-registered. Below you can see snapshots of 3D models. You can see more snapshots [here](https://github.com/amir32002/3D_Street_View/blob/master/3D_cities_snapshots/)
+The dataset covers the downtown and surrounding areas of New York, Chicago, Washington, Las Vegas, Florence, Amsterdam, San Francisco and Paris. We are releasing the 3D models of these cities besides the street view images and metadata. The models are geo-registered. Below you can see snapshots of 3D models. You can see more snapshots [here](https://github.com/amir32002/3D_Street_View/blob/master/3D_cities_snapshots/).
 
 <img src="https://github.com/amir32002/3D_Street_View/blob/master/3D_cities_snapshots/3D_models_tile.jpg" width="850">
 
