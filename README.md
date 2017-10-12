@@ -1,7 +1,7 @@
 # Street View ``Image, Pose, and 3D Cities`` Dataset 
 **http://3drepresentation.stanford.edu/**
 
-This repository shares a large dataset of street view images (25 million images and 118 matching image pairs) with their camera pose, 3D models of cities, and extended metadata. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint shows a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
+This repository shares a large dataset of street view images **(25 million images and 118 matching image pairs) with their camera pose, 3D models of 8 cities, and extended metadata**. The data comes in bundles of matching images; the content of the matching pairs show the same physical point while the camera viewpoint shows a large baseline (often >120 degrees). The dataset can be used for learning 6DOF camera pose estimation/visual odometry, image matching, and various 3D estimations. You can see a few examples below and more examples [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data1.pdf) and [here](https://github.com/amir32002/3D_Street_View/blob/master/misc/sample_data2.pdf). The 6DOF camera poses are also released. 
 
 <img src="https://github.com/amir32002/3D_Street_View/blob/master/misc/data_samplel.gif" width="600">
 
