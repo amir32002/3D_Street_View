@@ -44,7 +44,7 @@ The dataset comprises 25 million google street view images forming 118 million c
 ### Test Set:
 To ensure the quality of the test set and keep evaluations unimpacted by the potential errors introduced by the automated data collection, every datapoint in the test set are verified by at least three Amazon Mechanical Turkers and noisy instances are removed. The procedure and statistics are elborated in the supplementary material. 
 The test pairs are guaranteed to: 
-* show the same exact physical point in both patches (re-verified by Truckers)
+* show the same exact physical point in both patches (re-verified by Turkers)
 * the magnitude of the translation vector between the center of two patches (re-measured by Turker click locations) to be <25 pixels (i.e. ~4% of image’s width) 
 * the uncertainty in translation vector between the center of two patches (measured by the disparity among Turker click locations) to be <15  pixels (~2% of image’s width)
 
