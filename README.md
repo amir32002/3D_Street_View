@@ -64,9 +64,21 @@ A user study through Amazon Mechanical Turk was performed to analyze the charact
 ## Download
 Please note that by downloading this dataset you are consenting to non-commercial use and the license.
 
-### [ Download the full [Dataset] and [Testset] ](https://console.cloud.google.com/storage/browser/eccv16)  
-
 The dataset is large (800GB). In order to make it more handy, it comes as multiple tar files that contain the image - and meta - data. The test set and 3D models are provided as separate folders.
+
+To download the dataset, we recommend using aria2c, which you can install using:
+
+```
+sudo apt-get update && sudo apt-get install aria2
+```
+
+We provide separate download links for the dataset, the 3D models, and for the test set in [`links`](https://github.com/amir32002/3D_Street_View/tree/master/links). Download everything to a specified directory by calling
+
+```
+aria2c --input-file ./links/all_aria2c.txt -d /the/download/directory -j 16 -x 16
+```
+
+For additional download options, please see the [aria2c documentation](http://aria2.github.io/manual/en/html/aria2c.html).
 
 
 ---

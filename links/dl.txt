@@ -1,1 +1,0 @@
-https://console.cloud.google.com/storage/browser/streetview_image_pose_3d

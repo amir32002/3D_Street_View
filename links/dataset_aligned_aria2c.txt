@@ -1,0 +1,80 @@
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0002.tar
+	out=eccv16/dataset_aligned/0002.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0003.tar
+	out=eccv16/dataset_aligned/0003.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0004.tar
+	out=eccv16/dataset_aligned/0004.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0009.tar
+	out=eccv16/dataset_aligned/0009.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0012.tar
+	out=eccv16/dataset_aligned/0012.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0014.tar
+	out=eccv16/dataset_aligned/0014.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0015.tar
+	out=eccv16/dataset_aligned/0015.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0017.tar
+	out=eccv16/dataset_aligned/0017.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0020.tar
+	out=eccv16/dataset_aligned/0020.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0021.tar
+	out=eccv16/dataset_aligned/0021.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0022.tar
+	out=eccv16/dataset_aligned/0022.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0024.tar
+	out=eccv16/dataset_aligned/0024.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0025.tar
+	out=eccv16/dataset_aligned/0025.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0026.tar
+	out=eccv16/dataset_aligned/0026.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0028.tar
+	out=eccv16/dataset_aligned/0028.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0030.tar
+	out=eccv16/dataset_aligned/0030.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0031.tar
+	out=eccv16/dataset_aligned/0031.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0032.tar
+	out=eccv16/dataset_aligned/0032.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0033.tar
+	out=eccv16/dataset_aligned/0033.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0035.tar
+	out=eccv16/dataset_aligned/0035.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0036.tar
+	out=eccv16/dataset_aligned/0036.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0067.tar
+	out=eccv16/dataset_aligned/0067.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0068.tar
+	out=eccv16/dataset_aligned/0068.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0069.tar
+	out=eccv16/dataset_aligned/0069.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0070.tar
+	out=eccv16/dataset_aligned/0070.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0071.tar
+	out=eccv16/dataset_aligned/0071.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0072.tar
+	out=eccv16/dataset_aligned/0072.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0073.tar
+	out=eccv16/dataset_aligned/0073.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0074.tar
+	out=eccv16/dataset_aligned/0074.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0075.tar
+	out=eccv16/dataset_aligned/0075.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0076.tar
+	out=eccv16/dataset_aligned/0076.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0077.tar
+	out=eccv16/dataset_aligned/0077.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0078.tar
+	out=eccv16/dataset_aligned/0078.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0079.tar
+	out=eccv16/dataset_aligned/0079.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0080.tar
+	out=eccv16/dataset_aligned/0080.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0081.tar
+	out=eccv16/dataset_aligned/0081.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0090.tar
+	out=eccv16/dataset_aligned/0090.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0093.tar
+	out=eccv16/dataset_aligned/0093.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/0096.tar
+	out=eccv16/dataset_aligned/0096.tar
+https://datasets.epfl.ch/vilab/eccv16/dataset_aligned/Readme.txt
+	out=eccv16/dataset_aligned/Readme.txt

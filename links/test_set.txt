@@ -1,0 +1,2 @@
+https://datasets.epfl.ch/vilab/eccv16/test_set/test_matching.tar
+https://datasets.epfl.ch/vilab/eccv16/test_set/test_poseregression.tar

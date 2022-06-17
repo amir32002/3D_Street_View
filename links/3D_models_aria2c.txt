@@ -1,0 +1,52 @@
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/Amsterdam.obj
+	out=eccv16/3D_models_of_cities/Amsterdam.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/Chicago.obj
+	out=eccv16/3D_models_of_cities/Chicago.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/Florence.obj
+	out=eccv16/3D_models_of_cities/Florence.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/LasVegas.obj
+	out=eccv16/3D_models_of_cities/LasVegas.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/NewYork.obj
+	out=eccv16/3D_models_of_cities/NewYork.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/Paris.obj
+	out=eccv16/3D_models_of_cities/Paris.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/SanFrancisco.obj
+	out=eccv16/3D_models_of_cities/SanFrancisco.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/WashingtonDC1.obj
+	out=eccv16/3D_models_of_cities/WashingtonDC1.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/WashingtonDC2.obj
+	out=eccv16/3D_models_of_cities/WashingtonDC2.obj
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Amsterdam_1.png
+	out=eccv16/3D_models_of_cities/snapshots/Amsterdam_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Amsterdam_2.png
+	out=eccv16/3D_models_of_cities/snapshots/Amsterdam_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Chicago_1.png
+	out=eccv16/3D_models_of_cities/snapshots/Chicago_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Chicago_2.png
+	out=eccv16/3D_models_of_cities/snapshots/Chicago_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Florence_1.png
+	out=eccv16/3D_models_of_cities/snapshots/Florence_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Florence_2.png
+	out=eccv16/3D_models_of_cities/snapshots/Florence_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Florence_3.png
+	out=eccv16/3D_models_of_cities/snapshots/Florence_3.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/LasVegas_1.png
+	out=eccv16/3D_models_of_cities/snapshots/LasVegas_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/LasVegas_2.png
+	out=eccv16/3D_models_of_cities/snapshots/LasVegas_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/NewYork_1.png
+	out=eccv16/3D_models_of_cities/snapshots/NewYork_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/NewYork_2.png
+	out=eccv16/3D_models_of_cities/snapshots/NewYork_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Paris_1.png
+	out=eccv16/3D_models_of_cities/snapshots/Paris_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/Paris_2.png
+	out=eccv16/3D_models_of_cities/snapshots/Paris_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/SanFrancisco_1.png
+	out=eccv16/3D_models_of_cities/snapshots/SanFrancisco_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/SanFrancisco_2.png
+	out=eccv16/3D_models_of_cities/snapshots/SanFrancisco_2.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/WashingtonDC_1.png
+	out=eccv16/3D_models_of_cities/snapshots/WashingtonDC_1.png
+https://datasets.epfl.ch/vilab/eccv16/3D_models_of_cities/snapshots/WashingtonDC_2.png
+	out=eccv16/3D_models_of_cities/snapshots/WashingtonDC_2.png
