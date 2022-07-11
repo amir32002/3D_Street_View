@@ -1,112 +1,112 @@
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0003.tar
-	out=eccv16/dataset_unaligned/0003.tar
+	out=dataset_unaligned/0003.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0004.tar
-	out=eccv16/dataset_unaligned/0004.tar
+	out=dataset_unaligned/0004.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0009.tar
-	out=eccv16/dataset_unaligned/0009.tar
+	out=dataset_unaligned/0009.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0012.tar
-	out=eccv16/dataset_unaligned/0012.tar
+	out=dataset_unaligned/0012.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0014.tar
-	out=eccv16/dataset_unaligned/0014.tar
+	out=dataset_unaligned/0014.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0017.tar
-	out=eccv16/dataset_unaligned/0017.tar
+	out=dataset_unaligned/0017.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0020.tar
-	out=eccv16/dataset_unaligned/0020.tar
+	out=dataset_unaligned/0020.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0022.tar
-	out=eccv16/dataset_unaligned/0022.tar
+	out=dataset_unaligned/0022.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0024.tar
-	out=eccv16/dataset_unaligned/0024.tar
+	out=dataset_unaligned/0024.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0026.tar
-	out=eccv16/dataset_unaligned/0026.tar
+	out=dataset_unaligned/0026.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0028.tar
-	out=eccv16/dataset_unaligned/0028.tar
+	out=dataset_unaligned/0028.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0030.tar
-	out=eccv16/dataset_unaligned/0030.tar
+	out=dataset_unaligned/0030.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0032.tar
-	out=eccv16/dataset_unaligned/0032.tar
+	out=dataset_unaligned/0032.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0033.tar
-	out=eccv16/dataset_unaligned/0033.tar
+	out=dataset_unaligned/0033.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0035.tar
-	out=eccv16/dataset_unaligned/0035.tar
+	out=dataset_unaligned/0035.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0036.tar
-	out=eccv16/dataset_unaligned/0036.tar
+	out=dataset_unaligned/0036.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0058.tar
-	out=eccv16/dataset_unaligned/0058.tar
+	out=dataset_unaligned/0058.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0059.tar
-	out=eccv16/dataset_unaligned/0059.tar
+	out=dataset_unaligned/0059.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0060.tar
-	out=eccv16/dataset_unaligned/0060.tar
+	out=dataset_unaligned/0060.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0061.tar
-	out=eccv16/dataset_unaligned/0061.tar
+	out=dataset_unaligned/0061.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0062.tar
-	out=eccv16/dataset_unaligned/0062.tar
+	out=dataset_unaligned/0062.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0063.tar
-	out=eccv16/dataset_unaligned/0063.tar
+	out=dataset_unaligned/0063.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0064.tar
-	out=eccv16/dataset_unaligned/0064.tar
+	out=dataset_unaligned/0064.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0065.tar
-	out=eccv16/dataset_unaligned/0065.tar
+	out=dataset_unaligned/0065.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0067.tar
-	out=eccv16/dataset_unaligned/0067.tar
+	out=dataset_unaligned/0067.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0068.tar
-	out=eccv16/dataset_unaligned/0068.tar
+	out=dataset_unaligned/0068.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0069.tar
-	out=eccv16/dataset_unaligned/0069.tar
+	out=dataset_unaligned/0069.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0070.tar
-	out=eccv16/dataset_unaligned/0070.tar
+	out=dataset_unaligned/0070.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0071.tar
-	out=eccv16/dataset_unaligned/0071.tar
+	out=dataset_unaligned/0071.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0072.tar
-	out=eccv16/dataset_unaligned/0072.tar
+	out=dataset_unaligned/0072.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0073.tar
-	out=eccv16/dataset_unaligned/0073.tar
+	out=dataset_unaligned/0073.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0074.tar
-	out=eccv16/dataset_unaligned/0074.tar
+	out=dataset_unaligned/0074.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0075.tar
-	out=eccv16/dataset_unaligned/0075.tar
+	out=dataset_unaligned/0075.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0076.tar
-	out=eccv16/dataset_unaligned/0076.tar
+	out=dataset_unaligned/0076.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0077.tar
-	out=eccv16/dataset_unaligned/0077.tar
+	out=dataset_unaligned/0077.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0078.tar
-	out=eccv16/dataset_unaligned/0078.tar
+	out=dataset_unaligned/0078.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0079.tar
-	out=eccv16/dataset_unaligned/0079.tar
+	out=dataset_unaligned/0079.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0080.tar
-	out=eccv16/dataset_unaligned/0080.tar
+	out=dataset_unaligned/0080.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0081.tar
-	out=eccv16/dataset_unaligned/0081.tar
+	out=dataset_unaligned/0081.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0083.tar
-	out=eccv16/dataset_unaligned/0083.tar
+	out=dataset_unaligned/0083.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0084.tar
-	out=eccv16/dataset_unaligned/0084.tar
+	out=dataset_unaligned/0084.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0085.tar
-	out=eccv16/dataset_unaligned/0085.tar
+	out=dataset_unaligned/0085.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0086.tar
-	out=eccv16/dataset_unaligned/0086.tar
+	out=dataset_unaligned/0086.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0087.tar
-	out=eccv16/dataset_unaligned/0087.tar
+	out=dataset_unaligned/0087.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0088.tar
-	out=eccv16/dataset_unaligned/0088.tar
+	out=dataset_unaligned/0088.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0089.tar
-	out=eccv16/dataset_unaligned/0089.tar
+	out=dataset_unaligned/0089.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0090.tar
-	out=eccv16/dataset_unaligned/0090.tar
+	out=dataset_unaligned/0090.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0091.tar
-	out=eccv16/dataset_unaligned/0091.tar
+	out=dataset_unaligned/0091.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0092.tar
-	out=eccv16/dataset_unaligned/0092.tar
+	out=dataset_unaligned/0092.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0093.tar
-	out=eccv16/dataset_unaligned/0093.tar
+	out=dataset_unaligned/0093.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0094.tar
-	out=eccv16/dataset_unaligned/0094.tar
+	out=dataset_unaligned/0094.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0095.tar
-	out=eccv16/dataset_unaligned/0095.tar
+	out=dataset_unaligned/0095.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0096.tar
-	out=eccv16/dataset_unaligned/0096.tar
+	out=dataset_unaligned/0096.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/0097.tar
-	out=eccv16/dataset_unaligned/0097.tar
+	out=dataset_unaligned/0097.tar
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/Readme.rtf
-	out=eccv16/dataset_unaligned/Readme.rtf
+	out=dataset_unaligned/Readme.rtf
 https://datasets.epfl.ch/vilab/eccv16/dataset_unaligned/Readme.txt
-	out=eccv16/dataset_unaligned/Readme.txt
+	out=dataset_unaligned/Readme.txt
